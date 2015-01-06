@@ -55,8 +55,10 @@ type
     procedure UnloadButtonClick(Sender: TObject);
     procedure ServiceBoxChange(Sender: TObject);
   private
+    { Private declarations }
     FManager: TPlugInManager;
   public
+    { Public declarations }
     class procedure EditPlugIns(AManager: TPlugInManager);
   end;
 
@@ -231,3 +233,4 @@ end;
 // ------------------------------------------------------------------------------
 
 end.
+
